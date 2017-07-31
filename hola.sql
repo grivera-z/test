@@ -145,3 +145,4 @@ FROM
 WHERE
     country IN ('CN' , 'JP', 'SG');
 
+Me quiero morir
