@@ -4,17 +4,17 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                powershell 'ls'
+                echo 'ls'
             }
         }
         stage('Test') {
             steps {
-                powershell 'python .\\test.py'
+                echo 'python .\\test.py'
             }
         }
         stage('Deploy') {
             steps {
-                powershell 'echo "Deploying...."'
+                echo 'echo "Deploying...."'
             }
         }
     }
